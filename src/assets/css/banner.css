@@ -1,0 +1,36 @@
+.contain-banner{
+    display: flex;
+    flex-direction: column;
+    background-color: #1c1c1c;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: -99;
+    color: white;
+}
+
+.contain-banner-h3 {
+    font-size: 1.5rem;
+}
+.contain-banner-h1_A{
+    font-size: 5rem;
+    font-weight: 800;
+    background: linear-gradient(90deg, rgba(252,70,107,1) 0%, rgba(63,94,251,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.contain-banner-h1_B{
+    font-size: 5rem;
+    font-weight: 800;
+    background: linear-gradient(90deg, rgba(0,176,144,1) 0%, rgba(150,201,61,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.contain-banner-h4{
+    margin-top: .5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
