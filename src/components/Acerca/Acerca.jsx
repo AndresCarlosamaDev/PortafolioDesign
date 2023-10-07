@@ -1,4 +1,5 @@
 import React from "react";
+import foto from '../../assets/img/bb.jpg'
 import '../../assets/css/acerca.css'
 
 export const Acerca = () => {
@@ -9,9 +10,8 @@ export const Acerca = () => {
                     <h1>Acerca de mi</h1>
                 </div>
                 <div className="contain-acerca_info">
-                    <div className="contain-acerca_info_img"><img src="" alt="" /></div>
-                    <p className="contain-acerca_info_prr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, ratione itaque earum dicta, eum maxime ipsa inventore delectus quo perferendis esse dolorem nostrum dolorum nesciunt ducimus natus temporibus repudiandae nam!
-                        Asperiores numquam doloremque mollitia praesentium, eos odit modi dolorum atque natus obcaecati reprehenderit officiis beatae impedit blanditiis expedita iste earum debitis qui aliquid dolores magnam illum ratione placeat? Doloribus, nisi?</p>
+                    <div className="contain-acerca_info_img"><img src={foto} alt="Foto_perfil" /></div>
+                    <p className="contain-acerca_info_prr">Hola, mi nombre es Andrés Carlosama, soy diseñador gráfico con 4 años de experiencia en diseño de piezas para redes sociales, animación, edición de video, diseño de interfaces web, ilustración entre otras actividades relacionadas con el diseño gráfico y diseño web.</p>
                 </div>
             </div>
         </div>

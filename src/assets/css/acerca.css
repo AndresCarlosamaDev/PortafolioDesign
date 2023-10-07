@@ -1,5 +1,42 @@
 .container{
-    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+.contain-acerca{
+    width: 100%;
     margin: 3rem 0;
-    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contain-acerca_title{
+    border: none;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(45deg, #00b09b, #96c93d) 1;
+    width: 400px;
+    margin-bottom: 2rem;
+}
+.contain-acerca_title h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contain-acerca_info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contain-acerca_info_img{
+    width: 25%;
+    height: 13rem;
+}
+.contain-acerca_info_img img{
+    border-radius: 50%;
+    width: 100%;
+}
+.contain-acerca_info_prr{
+    width: 50%;
+    line-height: 1.3rem;
 }
