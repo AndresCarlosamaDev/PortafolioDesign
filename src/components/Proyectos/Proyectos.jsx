@@ -1,5 +1,6 @@
 import React from "react";
 import "../../assets/css/proyectos.css";
+import { Trabajo } from "../Trabajo/Trabajo";
 
 export const ContProyectos = () => {
   return (
@@ -18,6 +19,11 @@ export const ContProyectos = () => {
                         <button><ul>Diseño Web</ul></button>
                         <button><ul>Animación</ul></button>
                     </ol>
+                </div>
+                <div className="containProyectos-trabajos">
+                    <Trabajo />
+                    <Trabajo />
+                    <Trabajo />
                 </div>
         </div>
     </div>

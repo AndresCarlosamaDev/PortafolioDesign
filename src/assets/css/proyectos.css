@@ -22,11 +22,30 @@
     text-align: center;
     margin-bottom: 1rem;
 }
+
+.containProyectos-categorias{
+    width: 100%;
+}
 .containProyectos-categorias ol{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 1.25rem;
-    width: 140%;
-    background-color: blue;
+    font-size: 1rem;
+}
+.containProyectos-categorias button{
+    cursor: pointer;
+}
+.containProyectos-categorias button:hover{
+    font-weight: 600;
+    border: none;
+    border-bottom: 2px solid;
+    padding-bottom: .5rem;
+    border-image: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%) 1;
+    transition: all 0.2s ease-in-out;
+}
+
+.containProyectos-trabajos{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
 }

@@ -1,0 +1,8 @@
+.header-contain{
+    background-color: transparent;
+    position: absolute;
+    z-index: 99;
+    background-color: white;
+    padding: .7rem;
+    opacity: 50%;
+}
