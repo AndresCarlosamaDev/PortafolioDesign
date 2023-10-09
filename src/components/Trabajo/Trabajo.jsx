@@ -32,11 +32,6 @@ export const Trabajo = () => {
           </Typography>
         </CardContent>
       </CardActionArea>
-      {/* <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-      </CardActions> */}
     </Card>
   );
 }

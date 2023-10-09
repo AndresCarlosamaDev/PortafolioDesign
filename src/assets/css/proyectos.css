@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
+    /* margin-bottom: 3rem; */
 }
 
 .containProyectos-title{
@@ -45,7 +45,7 @@
 }
 
 .containProyectos-trabajos{
-    margin: 2rem 0;
+    margin: 2rem 0 0;
     display: flex;
     justify-content: space-between;
 }
