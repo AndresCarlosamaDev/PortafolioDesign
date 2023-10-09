@@ -1,0 +1,32 @@
+.containProyectos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.containProyectos-title{
+    border: none;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(45deg, #00b09b, #96c93d) 1;
+    width: 400px;
+    margin-bottom: 2rem;
+}
+
+.containProyectos-title h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.containProyectos-categorias ol{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.25rem;
+    width: 140%;
+    background-color: blue;
+}

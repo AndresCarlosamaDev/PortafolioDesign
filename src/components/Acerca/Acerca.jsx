@@ -1,5 +1,5 @@
 import React from "react";
-import foto from '../../assets/img/bb.jpg'
+import foto from '../../assets/img/foto.jpg'
 import '../../assets/css/acerca.css'
 
 export const Acerca = () => {
