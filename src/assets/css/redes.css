@@ -1,0 +1,19 @@
+.footer_contain{
+    background-color: #1c1c1c;
+    padding: 1rem 0;
+}
+.footer_contain-logos{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1.5rem;
+}
+.footer_contain-txt{
+    color: white;
+    text-align: center;
+}
+.footer_contain-logos a:hover{
+    border-radius: 10px;
+    padding: .25rem;
+    transition: all 0.25s ease-in-out;
+    background: linear-gradient(90deg, #00b09b 0%, #96c93d 100%);
+}

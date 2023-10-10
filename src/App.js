@@ -5,6 +5,7 @@ import { Banner } from './components/Banner/Banner';
 import { Acerca } from './components/Acerca/Acerca';
 import { ContProyectos } from './components/Proyectos/Proyectos';
 import { Contactame } from './components/Contactame/Contactame';
+import { Redes } from './components/Redes/Redes';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Acerca />
       <ContProyectos />
       <Contactame />
+      <Redes />
     </>
   );
 }
