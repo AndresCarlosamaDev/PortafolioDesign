@@ -1,11 +1,22 @@
 .footer_contain{
-    background-color: #1c1c1c;
-    padding: 1rem 0;
+    background: linear-gradient(90deg, #00b09b 0%, #96c93d 100%);
+    padding: 2rem 0;
+}
+.footer_contain-txt h3{
+    color: #1c1c1c;
+}
+.footer_contain-txt b{
+    font-weight: 700;
 }
 .footer_contain-logos{
     display: flex;
     justify-content: space-around;
-    padding-bottom: 1.5rem;
+    padding: 2rem 0;
+}
+.footer_contain-logos a{
+    background-color: #1c1c1c;
+    padding: .5rem;
+    border-radius: 50px;
 }
 .footer_contain-txt{
     color: white;
@@ -15,5 +26,8 @@
     border-radius: 10px;
     padding: .25rem;
     transition: all 0.25s ease-in-out;
-    background: linear-gradient(90deg, #00b09b 0%, #96c93d 100%);
+    background: #1c1c1c;
+    padding: .5rem;
+    box-shadow: 10px 10px 0px -4px rgba(0,0,0,0.46);
+    transform: scale(1.2);
 }

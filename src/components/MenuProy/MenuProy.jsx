@@ -1,8 +1,8 @@
 import React from "react";
 import "../../assets/css/proyectos.css";
-import { Trabajo } from "../Trabajo/Trabajo";
+import { Proyecto } from "../Proyecto/Proyecto";
 
-export const ContProyectos = () => {
+export const MenuProy = () => {
   return (
     <div className="container">
         <div className="containProyectos">
@@ -21,9 +21,9 @@ export const ContProyectos = () => {
                     </ol>
                 </div>
                 <div className="containProyectos-trabajos">
-                    <Trabajo />
-                    <Trabajo />
-                    <Trabajo />
+                    <Proyecto />
+                    <Proyecto />
+                    <Proyecto />
                 </div>
         </div>
     </div>

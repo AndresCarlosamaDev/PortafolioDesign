@@ -1,0 +1,48 @@
+.contain-proyecto{
+    background-color: white;
+    box-shadow: 10px 10px 29px -9px rgba(0,0,0,0.34);
+    width: 20rem;
+    height: 20rem ;
+}
+
+.high-container{
+    background-color: rgba(132, 86, 17, 0.323);
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+    z-index: 999;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    transition: all .3s linear;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.high-container-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    opacity: 100%;
+}
+.high-container-capsula{
+    color: white;
+}
+
+.contain-proyecto_low{
+    width: 100%;
+}
+.contain-proyecto_low img{
+    border-radius: 10px;
+}
+
+
+
+
+.high-container:hover{
+    transition: steps();
+    clip-path: polygon(0 66%, 100% 65%, 100% 100%, 0% 100%);
+}

@@ -1,0 +1,34 @@
+.servicios-contain{
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem;
+    color: white;
+    margin: 10rem 0 2rem;
+}
+.servicios-contain_title{
+    border: none;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(45deg, #00b09b, #96c93d) 1;
+    width: 400px;
+    margin-bottom: 2rem;
+}
+.servicios-contain_title h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.servicios-contain_items{
+    display: flex;
+    text-align: center;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.servicios-contain_items img{
+    width: 100px;
+    margin-bottom: 1rem;
+}

@@ -3,9 +3,10 @@ import './assets/css/base/base.css';
 import { TemporaryDrawer } from './components/Header/Header';
 import { Banner } from './components/Banner/Banner';
 import { Acerca } from './components/Acerca/Acerca';
-import { ContProyectos } from './components/Proyectos/Proyectos';
+import { MenuProy } from './components/MenuProy/MenuProy';
 import { Contactame } from './components/Contactame/Contactame';
 import { Redes } from './components/Redes/Redes';
+import { Servicios } from './components/Servicios/Servicios';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <TemporaryDrawer />
       <Banner />
       <Acerca />
-      <ContProyectos />
+      <MenuProy />
+      <Servicios />
       <Contactame />
       <Redes />
     </>
