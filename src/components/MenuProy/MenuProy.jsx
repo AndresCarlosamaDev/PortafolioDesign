@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/css/proyectos.css";
+import '../../assets/css/menuProy.css';
 import { Proyecto } from "../Proyecto/Proyecto";
 
 export const MenuProy = () => {
@@ -24,6 +24,7 @@ export const MenuProy = () => {
                     <Proyecto />
                     <Proyecto />
                     <Proyecto />
+
                 </div>
         </div>
     </div>

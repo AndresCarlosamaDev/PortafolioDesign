@@ -4,7 +4,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin-bottom: 3rem; */
 }
 
 .containProyectos-title{
@@ -38,8 +37,8 @@
 .containProyectos-categorias button:hover{
     font-weight: 600;
     border: none;
-    border-bottom: 2px solid;
-    padding-bottom: .5rem;
+    border-bottom: 3.5px solid;
+    padding-bottom: .2rem;
     border-image: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%) 1;
     transition: all 0.2s ease-in-out;
 }
@@ -48,5 +47,5 @@
     margin: 2rem 0 0;
     display: flex;
     justify-content: space-between;
-    width: 55vw;
+    width: 60vw;
 }

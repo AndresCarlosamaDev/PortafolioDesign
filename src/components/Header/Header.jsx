@@ -4,65 +4,54 @@ import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
 import List from '@mui/material/List';
-import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
 import MenuIcon from '@mui/icons-material/Menu';
+import FaceIcon from '@mui/icons-material/Face';
+import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
+import EmailIcon from '@mui/icons-material/Email';
 
-export function TemporaryDrawer() {
-    const [state, setState] = useState({
-        top: false,
-    });
-
-    const toggleDrawer = (anchor, open) => (event) => {
-        if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
-            return;
-        }
-
-        setState({ ...state, [anchor]: open });
+export const TemporaryDrawer = () => {
+    const [open, setOpen] = useState(false);
+  
+    const toggleDrawer = (isOpen) => (event) => {
+      if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
+        return;
+      }
+  
+      setOpen(isOpen);
     };
-
-    const list = (anchor) => (
-        <Box
+  
+    return (
+      <div className='header-contain'>
+        <Button onClick={toggleDrawer(true)}><MenuIcon/></Button>
+        <Drawer anchor="left" open={open} onClose={toggleDrawer(false)}>
+          <Box
             sx={{ width: 250 }}
             role="presentation"
-            onClick={toggleDrawer(anchor, false)}
-            onKeyDown={toggleDrawer(anchor, false)}
-        >
+            onClick={toggleDrawer(false)}
+            onKeyDown={toggleDrawer(false)}
+          >
+            {/* Lista de elementos a presentarse */}
             <List>
                 {['Acerca de mi', 'Mi Portafolio', 'Contáctame'].map((text, index) => (
                     <ListItem key={text} disablePadding>
                         <ListItemButton>
                             <ListItemIcon>
-                                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                                {index === 0 && <FaceIcon/>}
+                                {index === 1 && <BusinessCenterIcon/>}
+                                {index === 2 && <EmailIcon/>}
                             </ListItemIcon>
                             <ListItemText primary={text} />
                         </ListItemButton>
                     </ListItem>
                 ))}
             </List>
-            <Divider />
-        </Box>
+          </Box>
+        </Drawer>
+      </div>
     );
-
-    return (
-        <div className='header-contain'>
-            {['left'].map((anchor) => (
-                <Fragment key={anchor}>
-                    <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
-                    <Drawer
-                        anchor={anchor}
-                        open={state[anchor]}
-                        onClose={toggleDrawer(anchor, false)}
-                    >
-                        {list(anchor)}
-                    </Drawer>
-                </Fragment>
-            ))}
-        </div>
-    );
-}
+  }
+  

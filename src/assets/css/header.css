@@ -3,6 +3,6 @@
     position: absolute;
     z-index: 99;
     background-color: white;
-    padding: .7rem;
+    padding: .7rem .3rem;
     opacity: 50%;
 }
