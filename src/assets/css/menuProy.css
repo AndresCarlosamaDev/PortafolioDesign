@@ -48,4 +48,18 @@
     display: flex;
     justify-content: space-between;
     width: 60vw;
+    flex-wrap: wrap;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Mobile*/
+@media screen and (max-width: 425px) {
+    .containProyectos-categorias ol{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .containProyectos-categorias button{
+        margin: 0 .5rem 1rem;
+    }
 }

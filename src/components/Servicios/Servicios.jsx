@@ -18,23 +18,23 @@ export const Servicios = () => {
                     <img src={branding} alt="branding" />
                     <h4>Branding</h4>
                 </div>
-                <div className="servicios-contain_s2">
+                <div className="servicios-contain_s1">
                     <img src={Ilustracion} alt="Ilustracion" />
                     <h4>Ilustración</h4>
                 </div>
-                <div className="servicios-contain_s3">
+                <div className="servicios-contain_s1">
                     <img src={Video} alt="Video" />
                     <h4>Edición de Video</h4>
                 </div>
-                <div className="servicios-contain_s4">
+                <div className="servicios-contain_s1">
                     <img src={Social} alt="Social" />
                     <h4>Social Media</h4>
                 </div>
-                <div className="servicios-contain_s5">
+                <div className="servicios-contain_s1">
                     <img src={FrontEnd} alt="FrontEnd" />
                     <h4>Diseño Web Front End</h4>
                 </div>
-                <div className="servicios-contain_s6">
+                <div className="servicios-contain_s1">
                     <img src={Animacion} alt="Animacion" />
                     <h4>Animación</h4>
                 </div>
