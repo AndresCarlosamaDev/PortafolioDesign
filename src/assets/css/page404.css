@@ -1,0 +1,37 @@
+.page404-contain{
+    width: 100vw;
+    height: 100vh;
+    background-color: #1c1c1c;
+    overflow: hidden;
+}
+.page404-contain-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page404-contain-btn a{
+    padding: .8rem 3rem;
+    background: linear-gradient(90deg, #00b09b 0%, #96c93d 100%);
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 99;
+    position: relative;
+    top: 8rem;
+    transition: all .35s ease-in-out;
+}
+.page404-contain_img{
+    display: flex;
+    justify-content: center;
+}
+.page404-contain_img img{
+    width: 50%;
+}
+
+.page404-contain-btn a:hover{
+    box-shadow: 10px 10px 29px -9px rgba(0, 0, 0, 0.678);
+    color: #6e9925;
+    background: white;
+    padding: .95rem 3.2rem;
+
+}
