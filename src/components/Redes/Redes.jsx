@@ -21,7 +21,7 @@ export const Redes = () => {
                 <a href="https://www.instagram.com/andreus_eatos/"><InstagramIcon sx={{ color: "white", fontSize: 35 }} target="blank" /></a>
             </div>
             <div className="footer_contain-txt">
-                <h3>Desarrollado por <b>Andres Carlosama</b></h3>
+                <h3>Desarrollado por <b>Andrés Carlosama</b></h3>
             </div>
         </footer>
     )

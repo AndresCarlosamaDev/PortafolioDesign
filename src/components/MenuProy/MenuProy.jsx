@@ -1,8 +1,19 @@
-import React from "react";
+import React,{ useState, useEffect } from "react";
+import { read } from "../../api/api";
 import '../../assets/css/menuProy.css';
 import { Proyecto } from "../Proyecto/Proyecto";
 
 export const MenuProy = () => {
+
+  //Datos DB
+  const [services, setServices] = useState([]);
+  const url = "/servicio";
+
+  useEffect(() => {
+    read(url, setServices);
+  }, [url]);
+  console.log("Servicios de prueba", services);
+
   return (
     <div className="container">
         <div className="containProyectos">
@@ -21,9 +32,8 @@ export const MenuProy = () => {
                     </ol>
                 </div>
                 <div className="containProyectos-trabajos">
-                    <Proyecto />
-                    <Proyecto />
-                    <Proyecto />
+                    <Proyecto services={services} />
+
 
                 </div>
         </div>
