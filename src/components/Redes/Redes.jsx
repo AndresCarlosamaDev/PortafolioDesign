@@ -14,11 +14,11 @@ export const Redes = () => {
                 <h3>Copyright © 2023 All rights reserved</h3>
             </div>
             <div className="footer_contain-logos">
-                <a href="https://github.com/AndresCarlosamaDev"><GitHubIcon sx={{ color: "white", fontSize: 35 }} target="blank" /></a>
-                <a href="https://www.linkedin.com/in/andrescarlosama/"><LinkedInIcon sx={{ color: "white", fontSize: 35 }} target="blank" /></a>
-                <a href="#"><LanguageIcon sx={{ color: "white", fontSize: 35 }} target="blank" /></a>
-                <a href="https://www.behance.net/Andres_7k"><BusinessCenterIcon sx={{ color: "white", fontSize: 35 }} target="blank" /></a>
-                <a href="https://www.instagram.com/andreus_eatos/"><InstagramIcon sx={{ color: "white", fontSize: 35 }} target="blank" /></a>
+                <Link href="https://github.com/AndresCarlosamaDev"><GitHubIcon sx={{ color: "white", fontSize: 35 }} target="blank" /></Link>
+                <Link href="https://www.linkedin.com/in/andrescarlosama/"><LinkedInIcon sx={{ color: "white", fontSize: 35 }} target="blank" /></Link>
+                <Link href="#"><LanguageIcon sx={{ color: "white", fontSize: 35 }} target="blank" /></Link>
+                <Link href="https://www.behance.net/Andres_7k"><BusinessCenterIcon sx={{ color: "white", fontSize: 35 }} target="blank" /></Link>
+                <Link href="https://www.instagram.com/andreus_eatos/"><InstagramIcon sx={{ color: "white", fontSize: 35 }} target="blank" /></Link>
             </div>
             <div className="footer_contain-txt">
                 <h3>Desarrollado por <b>Andrés Carlosama</b></h3>

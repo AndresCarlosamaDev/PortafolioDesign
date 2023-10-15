@@ -18,6 +18,7 @@
     font-weight: 800;
     background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
 }
 
@@ -26,6 +27,7 @@
     font-weight: 800;
     background: linear-gradient(90deg, rgba(0,176,144,1) 0%, rgba(150,201,61,1) 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
 }
 .contain-banner-h4{
