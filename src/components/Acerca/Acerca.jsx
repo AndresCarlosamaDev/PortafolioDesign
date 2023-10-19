@@ -4,7 +4,7 @@ import '../../assets/css/acerca.css'
 
 export const Acerca = () => {
     return (
-        <div className="container">
+        <div className="container" id="acerca">
             <div className="contain-acerca">
                 <div className="contain-acerca_title">
                     <h1>Acerca de mi</h1>

@@ -12,6 +12,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import FaceIcon from '@mui/icons-material/Face';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import EmailIcon from '@mui/icons-material/Email';
+import {Link} from 'react-router-dom'
 
 export const TemporaryDrawer = () => {
     const [open, setOpen] = useState(false);
@@ -38,7 +39,7 @@ export const TemporaryDrawer = () => {
             <List>
                 {['Acerca de mi', 'Mi Portafolio', 'Contáctame'].map((text, index) => (
                     <ListItem key={text} disablePadding>
-                        <ListItemButton>
+                        <ListItemButton component={Link} to={index === 0 ? "/#acerca" : (index === 1 ? "#portafolio" : "#contacto")}>
                             <ListItemIcon>
                                 {index === 0 && <FaceIcon/>}
                                 {index === 1 && <BusinessCenterIcon/>}
