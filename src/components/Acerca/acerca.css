@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 3rem;
 }
 .contain-acerca_title{
     border: none;
@@ -73,5 +74,8 @@
     }
     .contain-acerca_info_prrContain{
         width: 90%;
+    }
+    .contain-acerca_info_prrContain p{
+        text-align: center;
     }
 }
