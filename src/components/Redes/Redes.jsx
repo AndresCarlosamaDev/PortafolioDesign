@@ -21,7 +21,7 @@ export const Redes = () => {
         <Link to='https://www.linkedin.com/in/andrescarlosama/'>
           <LinkedInIcon sx={{ color: 'white', fontSize: 35 }} target='blank' />
         </Link>
-        <Link to='#'>
+        <Link to='https://portafolio-design.vercel.app/'>
           <LanguageIcon sx={{ color: 'white', fontSize: 35 }} target='blank' />
         </Link>
         <Link to='https://www.behance.net/Andres_7k'>
