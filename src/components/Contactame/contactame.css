@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 .contain-contact-title{
     border: none;
