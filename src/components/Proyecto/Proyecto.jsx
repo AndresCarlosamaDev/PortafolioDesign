@@ -28,6 +28,6 @@ export const Proyecto = ({ services }) => {
   );
 };
 
-Proyecto.propTypes = {
-  services: PropTypes.func.isRequired, // Mark 'change' as a required function prop
-};
+// Proyecto.propTypes = {
+//   services: PropTypes.func.isRequired, // Mark 'change' as a required function prop
+// };
