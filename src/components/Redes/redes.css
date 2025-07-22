@@ -1,6 +1,6 @@
 .footer_contain{
     background: linear-gradient(90deg, #00b09b 0%, #96c93d 100%);
-    padding: 2rem 0;
+    padding: 0 0 2rem;
 }
 .footer_contain-txt h3{
     color: #1c1c1c;
@@ -28,6 +28,7 @@
     transition: all 0.25s ease-in-out;
     background: #1c1c1c;
     padding: .5rem;
-    box-shadow: 10px 10px 0px -4px rgba(0,0,0,0.46);
+    box-shadow: 10px 10px 0px -5px rgba(0, 0, 0, 0.197);
     transform: scale(1.2);
 }
+

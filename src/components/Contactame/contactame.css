@@ -1,94 +1,51 @@
 .container{
     display: flex;
-    align-items: center;
-    margin: 5rem 0;
 }
 .contain-contact{
-    width: 100vw;
-    margin: 3rem 0;
+    width: 22rem;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-}
-.contain-contact-title{
-    border: none;
-    border-bottom: 5px solid;
-    border-image: linear-gradient(45deg, #00b09b, #96c93d) 1;
-    width: 400px;
-    margin-bottom: 2rem;
-}
-.contain-contact-title h1{
-    font-size: 2.5rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.contain-contact-form{
-    display: flex;
-    justify-content: center;
-    height: 100%;
-}
-
-.contain-contact-form-img{
-    height: 20rem;
-    padding: 0;
-}
-
-.contain-contact-form-form{
-    padding: 1.5rem 2.5rem;
-    background-color: #1c1c1c;
-    display: flex;
-    width: 30rem;
-    flex-direction: column;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.contain-contact-form-form button{
-    padding: .5rem 1.5rem;
-    background: linear-gradient(90deg, #00b09b 0%, #96c93d 100%);
-    color: white;
+    padding: 1rem 2rem;
     border-radius: 50px;
+    background: linear-gradient(90deg, #00D02D 0%, #51FE71 100%);
+    transition: all .3s ease-in-out;
+}
+.contain-contact a{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
     cursor: pointer;
-    margin-top: 2rem;
+}
+
+.contain-contact img{
+    width: 2.8rem;
+}
+
+.contain-contact:hover{
+    width: 18rem;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /*Tablet*/
 @media screen and (max-width: 820px) {
-    .contain-contact-form-form{
-        width: 20rem;
-    }
+    
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /*Mobile*/
 @media screen and (max-width: 737px) {
-    .contain-contact-form-img{
-        display: none;
-    }
-    .contain-contact-form-form{
-        width: 65vw;
-        border-radius: 10px;
-    }
+    
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /*Mobile*/
 @media screen and (max-width: 425px) {
-    .container{
-        margin: 0;
-    }
-    .contain-contact-form-img{
-        display: none;
-    }
-    .contain-contact-form-form{
-        width: 65vw;
-        border-radius: 10px;
-    }
+    .contain-contact{
+    width: 16rem;
+    padding: .5rem 2rem;
+}
 }

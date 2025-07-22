@@ -5,24 +5,16 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LanguageIcon from '@mui/icons-material/Language';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import BehanceIcon from '../../assets/img/icon/icon_behance-01.png'
 
 import './redes.css';
 
 export const Redes = () => {
   return (
     <footer className='footer_contain'>
-      <div className='footer_contain-txt'>
-        <h3>Copyright © 2023 All rights reserved</h3>
-      </div>
       <div className='footer_contain-logos'>
-        <Link href='https://github.com/AndresCarlosamaDev'>
-          <GitHubIcon sx={{ color: 'white', fontSize: 35 }} target='blank' />
-        </Link>
         <Link href='https://www.linkedin.com/in/andrescarlosama/'>
           <LinkedInIcon sx={{ color: 'white', fontSize: 35 }} target='blank' />
-        </Link>
-        <Link href='#'>
-          <LanguageIcon sx={{ color: 'white', fontSize: 35 }} target='blank' />
         </Link>
         <Link href='https://www.behance.net/Andres_7k'>
           <BusinessCenterIcon
@@ -30,13 +22,10 @@ export const Redes = () => {
             target='blank'
           />
         </Link>
-        <Link href='https://www.instagram.com/andreus_eatos/'>
-          <InstagramIcon sx={{ color: 'white', fontSize: 35 }} target='blank' />
-        </Link>
       </div>
       <div className='footer_contain-txt'>
         <h3>
-          Desarrollado por <b>Andrés Carlosama</b>
+          © 2025 <b>Andrés Carlosama</b> All rights reserved
         </h3>
       </div>
     </footer>

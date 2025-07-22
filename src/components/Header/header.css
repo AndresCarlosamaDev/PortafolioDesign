@@ -5,4 +5,5 @@
     background-color: white;
     padding: .7rem .3rem;
     opacity: 50%;
+    scroll-behavior: smooth;
 }
