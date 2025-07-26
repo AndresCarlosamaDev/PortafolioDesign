@@ -7,7 +7,7 @@ import './contactame.css';
 export const Contactame = () => {
   return (
     <section className='container'>
-      <button className='contain-contact'>
+      <button className='contain-contact' aria-label="Escríbeme por WhatsApp">
         <a
           href="https://wa.me/573165646836?text=Hola%20me%20interesa%20tu%20trabajo"
           target="_blank"
